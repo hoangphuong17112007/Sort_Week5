@@ -19,9 +19,10 @@ int main() {
             A[i] = A[min];
             A[min] = d;
         }
-    }
-    for(i = 0; i < n; i++) {
-        printf("%d ", A[i]);
+        for(j = 0; j < n; j++) {
+            printf("%d ", A[j]);
+        }
+        printf("\n");
     }
     return 0;
 }
