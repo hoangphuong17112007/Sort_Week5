@@ -18,10 +18,11 @@ int main(){
                 }
             }
             A[j+1] = min;
+            for(int k=0; k<n; k++){
+                printf("%d ", A[k]);
+            }
+            printf("\n");
         }
-    }
-    for(i=0; i<n; i++){
-        printf("%d ", A[i]);
     }
     return 0;
 }
