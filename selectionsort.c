@@ -7,7 +7,7 @@ int main() {
   }
   int j, min, d=0;
   for(i=0; i<n-1; i++){
-    for(j=i+1; k<n; k++){
+    for(j=i+1; j<n; j++){
       if(A[j]<A[i]){
         A[j] = min;
         min = A[d];
